@@ -115,6 +115,7 @@ public class AllFragment extends Fragment {
             @Override
             public void onPullDownToRefresh(PullToRefreshBase<ListView> refreshView) {
                 requestData();
+                Toast.makeText(getContext(), "刷新成功", Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -144,6 +145,7 @@ public class AllFragment extends Fragment {
         }else{
             viewHolder.ivPic.setVisibility(View.INVISIBLE);
         }
+        requestData();
     }
 
 

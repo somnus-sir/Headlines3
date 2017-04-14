@@ -28,6 +28,8 @@ public class DetailActivity extends AppCompatActivity {
     LinearLayout containerDetail;
     @Bind(R.id.iv_load_detail)
     ImageView ivLoadDetail;
+
+    public static boolean ifLoadImage = true;//是否加载图片
     private RotateAnimation ra;
     private LinearInterpolator linearInterpolator;
 
@@ -38,15 +40,15 @@ public class DetailActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         //加载中动画
-        if (ra == null) {
-            ra = new RotateAnimation(0, 2160, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
-        }
-        if (linearInterpolator == null) {
-            linearInterpolator = new LinearInterpolator();
-        }
-        ra.setInterpolator(linearInterpolator);
-        ra.setDuration(6000);
-        ivLoadDetail.startAnimation(ra);
+//        if (ra == null) {
+//            ra = new RotateAnimation(0, 1600, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
+//        }
+//        if (linearInterpolator == null) {
+//            linearInterpolator = new LinearInterpolator();
+//        }
+//        ra.setInterpolator(linearInterpolator);
+//        ra.setDuration(4000);
+//        ivLoadDetail.startAnimation(ra);
 
 
         //设置toolBar
@@ -60,6 +62,8 @@ public class DetailActivity extends AppCompatActivity {
 
         // 启用javascript
         wbDetail.getSettings().setJavaScriptEnabled(true);
+        wbDetail.getSettings().setBlockNetworkImage(!ifLoadImage);
+
 
         //设置内容
         wbDetail.loadUrl(url);
@@ -67,8 +71,8 @@ public class DetailActivity extends AppCompatActivity {
             @Override
             public void onPageFinished(WebView view, String url) {
                 super.onPageFinished(view, url);
-                ivLoadDetail.setVisibility(View.GONE);
-                containerDetail.setVisibility(View.VISIBLE);
+//                ivLoadDetail.setVisibility(View.GONE);
+//                wbDetail.setVisibility(View.VISIBLE);
             }
         });
 
@@ -86,6 +90,7 @@ public class DetailActivity extends AppCompatActivity {
                 return false;
             }
         });
+
     }
 
 
@@ -95,4 +100,13 @@ public class DetailActivity extends AppCompatActivity {
         super.onDestroy();
         finish();
     }
+
+
+    /**
+     * 是否加载网页图片
+     */
+    public static void setImageLoad(boolean load){
+        ifLoadImage = load;
+    }
+
 }

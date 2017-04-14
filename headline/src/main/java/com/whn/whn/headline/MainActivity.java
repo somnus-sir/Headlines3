@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
         mDrawerToggle.syncState();
         // 设置按钮的动画效果; 如果不想要打开关闭抽屉时的箭头动画效果，可以不写此行代码
         drawerlayout.setDrawerListener(mDrawerToggle);
+        //监听侧拉
         drawerlayout.setDrawerListener(new DrawerLayout.DrawerListener() {
             @Override
             public void onDrawerSlide(View drawerView, float slideOffset) {
@@ -82,7 +83,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onDrawerClosed(View drawerView) {
-                pagerAdapter.notifyDataSetChanged();
+                pagerAdapter.notifyDataSetChanged();//关闭侧拉，刷新列表
+                FragmentSetting.FLAG_CACHECLEAN = true;//产生缓存
             }
 
             @Override

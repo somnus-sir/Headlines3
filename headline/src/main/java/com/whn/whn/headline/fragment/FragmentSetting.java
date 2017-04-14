@@ -15,10 +15,15 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.whn.whn.headline.DetailActivity;
 import com.whn.whn.headline.MainActivity;
 import com.whn.whn.headline.MyApplication;
 import com.whn.whn.headline.R;
 import com.whn.whn.headline.factory.FragmentFactory;
+
+import java.text.DecimalFormat;
+import java.util.Random;
+
 
 /**
  *
@@ -30,6 +35,7 @@ public class FragmentSetting extends Fragment {
     public Context context;
     private boolean FLAG_TEXTSIZE = true;
     private boolean FLAG_IMAGELOAD = false;
+    public static boolean FLAG_CACHECLEAN = true;
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, final ViewGroup container, Bundle savedInstanceState) {
@@ -68,20 +74,37 @@ public class FragmentSetting extends Fragment {
                 }
                 break;
             case 1://清理缓存，随机设置
+                Random random = new Random();
+                double v = random.nextDouble()*3;
+                DecimalFormat df = new DecimalFormat("##0.00");//格式，前面加0
+                String format = df.format(v);//格式化
+
+                if(FLAG_CACHECLEAN){
+                    Toast.makeText(context, "清理缓存"+format+"M", Toast.LENGTH_SHORT).show();
+                    FLAG_CACHECLEAN = false;
+                }else{
+                    Toast.makeText(context, "没有缓存", Toast.LENGTH_SHORT).show();
+                    //关闭侧拉以后才有缓存
+                }
+
+
 
                 break;
-            case 2://加载图片，控制图片加载,第一次传入false
+            case 2://加载图片，控制图片加载,第一次传入false不加载
                 if(FLAG_IMAGELOAD){
                     FragmentFactory.controlImageVisible(FLAG_IMAGELOAD);
-                    Toast.makeText(context, "显示图片", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context, "加载图片", Toast.LENGTH_SHORT).show();
+                    DetailActivity.setImageLoad(FLAG_IMAGELOAD);
                     FLAG_IMAGELOAD = false;
                 }else{
                     FragmentFactory.controlImageVisible(FLAG_IMAGELOAD);
-                    Toast.makeText(context, "不显示图片", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context, "不加载图片", Toast.LENGTH_SHORT).show();
+                    DetailActivity.setImageLoad(FLAG_IMAGELOAD);
                     FLAG_IMAGELOAD = true;
                 }
+
                 break;
-            case 3://检查新版本，没有新版本
+            case 3://检查新版本，没有新版本,请求tomcat服务器
                 Toast.makeText(context, "当前为最新版本", Toast.LENGTH_SHORT).show();
 
                 break;
