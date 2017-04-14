@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/bt_fs_back"
+            android:background="@mipmap/back_ic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_centerInParent="true"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="设置"/>
+
+
+    </RelativeLayout>
+
+    <ListView
+        android:layout_marginTop="40dp"
+        android:id="@+id/lv_fs_set"
+        android:padding="6dp"
+        android:paddingLeft="20dp"
+        android:dividerHeight="20dp"
+        android:divider="#3ddd"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </ListView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#3ddd"
+        android:layout_height="160dp">
+        <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/bt_fs_xieyi"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@android:color/transparent"
+            android:text="已同意用户协议"
+            android:textColor="#0099dd"
+            android:textSize="14sp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:background="@android:color/transparent"
+            android:layout_height="50dp"
+            android:textSize="12sp"
+            android:textColor="#aaa"
+            android:text="头条新闻toutiao.com\n\nv4.49.9build jiasdfw4234hj2k34h"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
