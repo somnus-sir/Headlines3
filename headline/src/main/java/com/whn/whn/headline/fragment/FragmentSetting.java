@@ -1,8 +1,8 @@
 package com.whn.whn.headline.fragment;
 
-import android.app.AlertDialog;
+import android.app.Activity;
 import android.app.Fragment;
-import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -10,14 +10,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.whn.whn.headline.AgreementActivity;
 import com.whn.whn.headline.DetailActivity;
-import com.whn.whn.headline.MainActivity;
-import com.whn.whn.headline.MyApplication;
 import com.whn.whn.headline.R;
 import com.whn.whn.headline.factory.FragmentFactory;
 
@@ -32,18 +32,26 @@ import java.util.Random;
 
 public class FragmentSetting extends Fragment {
     public String[] arr = new String[]{"字体大小","清理缓存","加载图片","检查新版本","使用帮助","意见反馈"};
-    public Context context;
+    public Activity activity;
     private boolean FLAG_TEXTSIZE = true;
     private boolean FLAG_IMAGELOAD = false;
     public static boolean FLAG_CACHECLEAN = true;
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, final ViewGroup container, Bundle savedInstanceState) {
-        context = container.getContext();
+        activity = getActivity();
         View view = inflater.inflate(R.layout.fragment_setting, container, false);
         ListView lvSetting = (ListView) view.findViewById(R.id.lv_fs_set);
-        lvSetting.setAdapter(new lvAdapter());
+        Button btAgreement = (Button) view.findViewById(R.id.bt_fs_xieyi);
+        btAgreement.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(activity, AgreementActivity.class));
+            }
+        });
 
+
+        lvSetting.setAdapter(new lvAdapter());
         //设置点击
         lvSetting.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -65,11 +73,11 @@ public class FragmentSetting extends Fragment {
             case 0://字体大小,主界面的字体大小更改
                 if(FLAG_TEXTSIZE){
                     FragmentFactory.setTextSize(20,14);
-                    Toast.makeText(context, "超大字体", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(activity, "超大字体", Toast.LENGTH_SHORT).show();
                     FLAG_TEXTSIZE =false;
                 }else{
                     FragmentFactory.setTextSize(16,12);
-                    Toast.makeText(context, "普通字体", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(activity, "普通字体", Toast.LENGTH_SHORT).show();
                     FLAG_TEXTSIZE =true;
                 }
                 break;
@@ -80,10 +88,10 @@ public class FragmentSetting extends Fragment {
                 String format = df.format(v);//格式化
 
                 if(FLAG_CACHECLEAN){
-                    Toast.makeText(context, "清理缓存"+format+"M", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(activity, "清理缓存"+format+"M", Toast.LENGTH_SHORT).show();
                     FLAG_CACHECLEAN = false;
                 }else{
-                    Toast.makeText(context, "没有缓存", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(activity, "没有缓存", Toast.LENGTH_SHORT).show();
                     //关闭侧拉以后才有缓存
                 }
 
@@ -93,19 +101,22 @@ public class FragmentSetting extends Fragment {
             case 2://加载图片，控制图片加载,第一次传入false不加载
                 if(FLAG_IMAGELOAD){
                     FragmentFactory.controlImageVisible(FLAG_IMAGELOAD);
-                    Toast.makeText(context, "加载图片", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(activity, "加载图片", Toast.LENGTH_SHORT).show();
                     DetailActivity.setImageLoad(FLAG_IMAGELOAD);
                     FLAG_IMAGELOAD = false;
                 }else{
                     FragmentFactory.controlImageVisible(FLAG_IMAGELOAD);
-                    Toast.makeText(context, "不加载图片", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(activity, "不加载图片", Toast.LENGTH_SHORT).show();
                     DetailActivity.setImageLoad(FLAG_IMAGELOAD);
                     FLAG_IMAGELOAD = true;
                 }
 
                 break;
             case 3://检查新版本，没有新版本,请求tomcat服务器
-                Toast.makeText(context, "当前为最新版本", Toast.LENGTH_SHORT).show();
+                Toast.makeText(activity, "当前为最新版本", Toast.LENGTH_SHORT).show();
+
+
+
 
                 break;
             case 4://使用帮助，提示，跳转一个页面，显示详细信息

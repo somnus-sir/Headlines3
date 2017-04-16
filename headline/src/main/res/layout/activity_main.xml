@@ -13,14 +13,18 @@
         android:orientation="vertical"
         android:layout_height="match_parent">
 
+
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
+            android:gravity="center"
             android:background="#40AA53"
             app:tabMode = "scrollable"
             android:layout_height="50dp">
 
         </android.support.v7.widget.Toolbar>
+
+
 
 
         <android.support.design.widget.TabLayout

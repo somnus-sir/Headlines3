@@ -6,7 +6,9 @@ import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MotionEvent;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -32,9 +34,11 @@ import com.lidroid.xutils.HttpUtils;
 import com.lidroid.xutils.exception.HttpException;
 import com.lidroid.xutils.http.ResponseInfo;
 import com.lidroid.xutils.http.callback.RequestCallBack;
+import com.lidroid.xutils.view.annotation.event.OnTouch;
 import com.whn.whn.headline.bean.ReceivedInfo;
 import com.whn.whn.headline.fragment.AllFragment;
 import com.whn.whn.headline.http.HttpHelper;
+import com.whn.whn.headline.http.HttpInterface;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -42,24 +46,39 @@ import org.json.JSONObject;
 import java.io.File;
 
 /**
- * Created by Administrator on 2017/4/14.
- *
- * 下载失败，可能文件路径有问题
- *
+ * Created by whn on 2017/4/14.
  */
 
-public class SplashActivity extends AppCompatActivity {
+public class SplashActivity extends AppCompatActivity implements HttpInterface{
     private static final int REQUEST_CODE_INSTALL = 111;
     private String desc;
     private TextView tv_Version;
     private int code;
     private String downloadurl;
     private String target;
+    private boolean KEY_ENTER = true;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+        LinearLayout bg = (LinearLayout) findViewById(R.id.ll_splash_bg);
+        //点击背景
+        bg.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                enterMainActivity();
+                finish();
+                return false;
+            }
+        });
         checkVersion();
+    }
+
+    public void enterMainActivity(){
+        if(KEY_ENTER){
+            enterHome();
+            KEY_ENTER = false;
+        }
     }
 
     /**
@@ -67,7 +86,6 @@ public class SplashActivity extends AppCompatActivity {
      */
     private void checkVersion() {
         HttpHelper httpHelper = new HttpHelper();
-        String url = "http://192.168.55.250:8080/feedback.json";
         httpHelper.execGet(url, new HttpHelper.HttpCallback() {
             @Override
             public void onSuccess(String data) {
@@ -82,7 +100,6 @@ public class SplashActivity extends AppCompatActivity {
                     } else {// 不需要更新,进入主界面
                         enterHome();
                     }
-
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -90,7 +107,7 @@ public class SplashActivity extends AppCompatActivity {
 
             @Override
             public void onFail(Exception e) {
-                enterHome();
+                enterMainActivity();
             }
         });
     }
@@ -171,7 +188,7 @@ public class SplashActivity extends AppCompatActivity {
         // 进度条
         final ProgressDialog dialog = new ProgressDialog(this);
         dialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
-        target = Environment.getExternalStorageDirectory().getAbsolutePath() + "/headline.apk";
+        target = "/mnt/sdcard/B/headline.apk";
         HttpUtils httpUtils = new HttpUtils();
         httpUtils.download(downloadurl, target, new RequestCallBack<File>() {
 
@@ -222,7 +239,13 @@ public class SplashActivity extends AppCompatActivity {
      * 进入主页面
      */
     protected void enterHome() {
-        startActivity(new Intent(this, MainActivity.class));
-        finish();
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                startActivity(new Intent(SplashActivity.this, MainActivity.class));
+                finish();
+                overridePendingTransition(R.anim.zoomin,R.anim.zoomout);
+            }
+        },2000);
     }
 }

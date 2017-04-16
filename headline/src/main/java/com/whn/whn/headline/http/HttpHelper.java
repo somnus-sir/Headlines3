@@ -23,7 +23,7 @@ import okhttp3.ResponseBody;
 import static android.content.ContentValues.TAG;
 
 /**
- * Created by lxj on 2016/12/18.
+ * Created by whn on 2016/12/18.
  */
 public class HttpHelper {
     private static HttpHelper mInstance = new HttpHelper();
