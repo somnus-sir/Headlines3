@@ -28,6 +28,7 @@ import butterknife.ButterKnife;
 
 /**
  * 加载具体页面的item
+ *
  */
 public class MainActivity extends AppCompatActivity {
     public static final String[] typeNames = new String[]{"头条", "社会", "国内", "国际", "娱乐", "体育", "军事", "科技", "财经", "时尚"};
