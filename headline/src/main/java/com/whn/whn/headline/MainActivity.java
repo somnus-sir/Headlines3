@@ -40,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
     ViewPager vp;
     @Bind(R.id.activity_main)
     LinearLayout activityMain;
-    @Bind(R.id.drawerlayout)
-    DrawerLayout drawerlayout;
+//    @Bind(R.id.drawerlayout)
+    public static DrawerLayout drawerlayout;
     @Bind(R.id.ll_fragmnet_left)
     LinearLayout ll_fragment_left;
     PagerAdapter pagerAdapter;
@@ -50,11 +50,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        drawerlayout = (DrawerLayout) findViewById(R.id.drawerlayout);
         ff = new FragmentFactory();
         ButterKnife.bind(this);
 
-        toolbar.setTitle("新闻头条");
-        toolbar.setTitleTextColor(Color.WHITE);
+        toolbar.setTitle("");
+//        toolbar.setTitleTextColor(Color.WHITE);
 
         //设置Viewpagerff
         pagerAdapter = new PagerAdapter(getSupportFragmentManager());
@@ -70,11 +71,15 @@ public class MainActivity extends AppCompatActivity {
         mDrawerToggle.syncState();
         // 设置按钮的动画效果; 如果不想要打开关闭抽屉时的箭头动画效果，可以不写此行代码
         drawerlayout.setDrawerListener(mDrawerToggle);
+
+        drawerlayout.closeDrawers();
+
+
         //监听侧拉
         drawerlayout.setDrawerListener(new DrawerLayout.DrawerListener() {
             @Override
             public void onDrawerSlide(View drawerView, float slideOffset) {
-                
+
             }
 
             @Override
@@ -104,8 +109,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    
-
 
 
 

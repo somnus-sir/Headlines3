@@ -47,6 +47,10 @@ import java.io.File;
 
 /**
  * Created by whn on 2017/4/14.
+ *
+ * 弹出下载窗口不可关闭
+ *
+ * 保存设置
  */
 
 public class SplashActivity extends AppCompatActivity implements HttpInterface{
@@ -62,15 +66,15 @@ public class SplashActivity extends AppCompatActivity implements HttpInterface{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         LinearLayout bg = (LinearLayout) findViewById(R.id.ll_splash_bg);
-        //点击背景
-        bg.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View view, MotionEvent motionEvent) {
-                enterMainActivity();
-                finish();
-                return false;
-            }
-        });
+//        //点击背景
+//        bg.setOnTouchListener(new View.OnTouchListener() {
+//            @Override
+//            public boolean onTouch(View view, MotionEvent motionEvent) {
+//                enterMainActivity();
+//                finish();
+//                return false;
+//            }
+//        });
         checkVersion();
     }
 

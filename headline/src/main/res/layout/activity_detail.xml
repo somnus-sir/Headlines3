@@ -1,26 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context="com.whn.whn.headline.MainActivity">
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
+    <RelativeLayout
+        android:background="#fff"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="#40AA53"
-        app:tabMode="scrollable"></android.support.v7.widget.Toolbar>
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/bt_detail_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/back_ic"/>
+
+        <Button
+            android:id="@+id/bt_detail_change"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/menu"
+            />
+
+    </RelativeLayout>
 
     <LinearLayout
         android:id="@+id/container_detail"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/toolbar"
-        android:orientation="vertical"
->
+        android:orientation="vertical">
 
 
         <WebView
@@ -30,13 +44,13 @@
     </LinearLayout>
 
 
-    <ImageView
-        android:visibility="gone"
-        android:id="@+id/iv_load_detail"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_centerInParent="true"
-        android:src="@mipmap/loading" />
+    <!--<ImageView-->
+        <!--android:visibility="gone"-->
+        <!--android:id="@+id/iv_load_detail"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:src="@mipmap/loading" />-->
 
 
-</RelativeLayout>
+</LinearLayout>

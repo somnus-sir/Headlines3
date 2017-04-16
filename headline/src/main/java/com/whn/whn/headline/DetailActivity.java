@@ -12,22 +12,28 @@ import android.view.animation.LinearInterpolator;
 import android.view.animation.RotateAnimation;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
+/**
+ * 可以添加举报，或者收藏
+ */
 public class DetailActivity extends AppCompatActivity {
-
-    @Bind(R.id.toolbar)
-    Toolbar toolbar;
+    //    @Bind(R.id.iv_load_detail)
+//    ImageView ivLoadDetail;
+//    @Bind(R.id.toolbar)
+//    Toolbar toolbar;
     @Bind(R.id.wb_detail)
     WebView wbDetail;
     @Bind(R.id.container_detail)
     LinearLayout containerDetail;
-    @Bind(R.id.iv_load_detail)
-    ImageView ivLoadDetail;
+    @Bind(R.id.bt_detail_back)
+    Button btBack;
+
 
     public static boolean ifLoadImage = true;//是否加载图片
     private RotateAnimation ra;
@@ -52,9 +58,14 @@ public class DetailActivity extends AppCompatActivity {
 
 
         //设置toolBar
-        toolbar.setTitle("新闻头条");
-        toolbar.setTitleTextColor(Color.WHITE);
-
+//        toolbar.setTitle("");
+//        toolbar.setTitleTextColor(Color.WHITE);
+        btBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
 
         //接受数据
         Intent intent = getIntent();

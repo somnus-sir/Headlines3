@@ -18,6 +18,7 @@ import android.widget.Toast;
 
 import com.whn.whn.headline.AgreementActivity;
 import com.whn.whn.headline.DetailActivity;
+import com.whn.whn.headline.MainActivity;
 import com.whn.whn.headline.R;
 import com.whn.whn.headline.factory.FragmentFactory;
 
@@ -31,18 +32,32 @@ import java.util.Random;
  */
 
 public class FragmentSetting extends Fragment {
-    public String[] arr = new String[]{"字体大小","清理缓存","加载图片","检查新版本","使用帮助","意见反馈"};
+    public String[] arr = new String[]{"字体大小", "清理缓存", "加载图片", "检查新版本", "使用帮助", "意见反馈"};
     public Activity activity;
     private boolean FLAG_TEXTSIZE = true;
     private boolean FLAG_IMAGELOAD = false;
     public static boolean FLAG_CACHECLEAN = true;
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, final ViewGroup container, Bundle savedInstanceState) {
         activity = getActivity();
         View view = inflater.inflate(R.layout.fragment_setting, container, false);
+        Button btBack = (Button) view.findViewById(R.id.bt_fs_back);
         ListView lvSetting = (ListView) view.findViewById(R.id.lv_fs_set);
         Button btAgreement = (Button) view.findViewById(R.id.bt_fs_xieyi);
+
+
+        //点击关闭侧拉
+        btBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.drawerlayout.closeDrawers();
+            }
+        });
+
+
+        //点击打开协议
         btAgreement.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -52,7 +67,7 @@ public class FragmentSetting extends Fragment {
 
 
         lvSetting.setAdapter(new lvAdapter());
-        //设置点击
+        //listview设置点击
         lvSetting.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
@@ -65,46 +80,42 @@ public class FragmentSetting extends Fragment {
     }
 
     /**
-     * 设置实现的方法
-     * @param i
+     * 设置功能实现的方法
      */
     private void settingMethod(int i) {
-        switch (i){
+        switch (i) {
             case 0://字体大小,主界面的字体大小更改
-                if(FLAG_TEXTSIZE){
-                    FragmentFactory.setTextSize(20,14);
+                if (FLAG_TEXTSIZE) {
+                    FragmentFactory.setTextSize(20, 14);
                     Toast.makeText(activity, "超大字体", Toast.LENGTH_SHORT).show();
-                    FLAG_TEXTSIZE =false;
-                }else{
-                    FragmentFactory.setTextSize(16,12);
+                    FLAG_TEXTSIZE = false;
+                } else {
+                    FragmentFactory.setTextSize(16, 12);
                     Toast.makeText(activity, "普通字体", Toast.LENGTH_SHORT).show();
-                    FLAG_TEXTSIZE =true;
+                    FLAG_TEXTSIZE = true;
                 }
                 break;
             case 1://清理缓存，随机设置
                 Random random = new Random();
-                double v = random.nextDouble()*3;
+                double v = random.nextDouble() * 3;
                 DecimalFormat df = new DecimalFormat("##0.00");//格式，前面加0
                 String format = df.format(v);//格式化
 
-                if(FLAG_CACHECLEAN){
-                    Toast.makeText(activity, "清理缓存"+format+"M", Toast.LENGTH_SHORT).show();
+                if (FLAG_CACHECLEAN) {
+                    Toast.makeText(activity, "清理缓存" + format + "M", Toast.LENGTH_SHORT).show();
                     FLAG_CACHECLEAN = false;
-                }else{
+                } else {
                     Toast.makeText(activity, "没有缓存", Toast.LENGTH_SHORT).show();
                     //关闭侧拉以后才有缓存
                 }
-
-
-
                 break;
             case 2://加载图片，控制图片加载,第一次传入false不加载
-                if(FLAG_IMAGELOAD){
+                if (FLAG_IMAGELOAD) {
                     FragmentFactory.controlImageVisible(FLAG_IMAGELOAD);
                     Toast.makeText(activity, "加载图片", Toast.LENGTH_SHORT).show();
                     DetailActivity.setImageLoad(FLAG_IMAGELOAD);
                     FLAG_IMAGELOAD = false;
-                }else{
+                } else {
                     FragmentFactory.controlImageVisible(FLAG_IMAGELOAD);
                     Toast.makeText(activity, "不加载图片", Toast.LENGTH_SHORT).show();
                     DetailActivity.setImageLoad(FLAG_IMAGELOAD);
@@ -114,8 +125,6 @@ public class FragmentSetting extends Fragment {
                 break;
             case 3://检查新版本，没有新版本,请求tomcat服务器
                 Toast.makeText(activity, "当前为最新版本", Toast.LENGTH_SHORT).show();
-
-
 
 
                 break;
@@ -128,31 +137,36 @@ public class FragmentSetting extends Fragment {
         }
     }
 
-    class lvAdapter extends BaseAdapter{
-            @Override
-            public int getCount() {
-                return arr.length;
-            }
-
-            @Override
-            public Object getItem(int i) {
-                return null;
-            }
-
-            @Override
-            public long getItemId(int i) {
-                return i;
-            }
-
-            @Override
-            public View getView(int i, View view, ViewGroup viewGroup) {
-                if(view == null){
-                    view = View.inflate(viewGroup.getContext(),R.layout.item_lv_setting,null);
-                }
-                TextView tv = (TextView) view.findViewById(R.id.tv_item_name);
-                tv.setText(arr[i]);
-                ImageView iv = (ImageView) view.findViewById(R.id.iv_itemlv_ic);
-                return view;
-            }
+    class lvAdapter extends BaseAdapter {
+        @Override
+        public int getCount() {
+            return arr.length;
         }
+
+        @Override
+        public Object getItem(int i) {
+            return null;
+        }
+
+        @Override
+        public long getItemId(int i) {
+            return i;
+        }
+
+        @Override
+        public View getView(int i, View view, ViewGroup viewGroup) {
+            if (view == null) {
+                view = View.inflate(viewGroup.getContext(), R.layout.item_lv_setting, null);
+            }
+            TextView tv = (TextView) view.findViewById(R.id.tv_item_name);
+            tv.setText(arr[i]);
+            ImageView iv = (ImageView) view.findViewById(R.id.iv_itemlv_ic);
+            return view;
+        }
+    }
+
+
 }
+
+
+
