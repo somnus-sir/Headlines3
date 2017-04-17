@@ -6,5 +6,5 @@ package com.whn.whn.headline.http;
  */
 
 public interface HttpInterface {
-    String url = "http://localhost:8080/feedback.json";
+    String url = "http://192.168.55.250:8080/feedback.json";
 }

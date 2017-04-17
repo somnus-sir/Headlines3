@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\workspace\Headlines-master\pullToRefresh\src\main\shaders"/></dataSet><dataSet config="debug"><source path="D:\workspace\Headlines-master\pullToRefresh\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\whn\headline3\Headlines3\pullToRefresh\src\main\shaders"/></dataSet><dataSet config="debug"><source path="D:\whn\headline3\Headlines3\pullToRefresh\src\debug\shaders"/></dataSet></merger>

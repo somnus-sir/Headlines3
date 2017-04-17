@@ -18,18 +18,17 @@ import android.widget.Toast;
 
 import com.whn.whn.headline.AgreementActivity;
 import com.whn.whn.headline.DetailActivity;
+import com.whn.whn.headline.HelpActivity;
 import com.whn.whn.headline.MainActivity;
 import com.whn.whn.headline.R;
 import com.whn.whn.headline.factory.FragmentFactory;
+import com.whn.whn.headline.http.CheckVersionUpdata;
 
 import java.text.DecimalFormat;
 import java.util.Random;
 
 
-/**
- *
- *
- */
+
 
 public class FragmentSetting extends Fragment {
     public String[] arr = new String[]{"字体大小", "清理缓存", "加载图片", "检查新版本", "使用帮助", "意见反馈"};
@@ -37,6 +36,7 @@ public class FragmentSetting extends Fragment {
     private boolean FLAG_TEXTSIZE = true;
     private boolean FLAG_IMAGELOAD = false;
     public static boolean FLAG_CACHECLEAN = true;
+
 
     @Nullable
     @Override
@@ -124,11 +124,12 @@ public class FragmentSetting extends Fragment {
 
                 break;
             case 3://检查新版本，没有新版本,请求tomcat服务器
-                Toast.makeText(activity, "当前为最新版本", Toast.LENGTH_SHORT).show();
-
+                CheckVersionUpdata checkVersionUpdata = new CheckVersionUpdata(activity);
+                checkVersionUpdata.checkVersion();
 
                 break;
             case 4://使用帮助，提示，跳转一个页面，显示详细信息
+                startActivity(new Intent(activity, HelpActivity.class));
 
                 break;
             case 5://意见反馈，反馈

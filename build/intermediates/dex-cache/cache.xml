@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.0_1b0f692b7c03ca21c8d60f911df30ea14fe9be8e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.0_2b7b29e4c82369dbb9a628ec441da239fabd1ee9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.uwetrottmann.photoview\library\1.2.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b3e0809640a1faa9c42cb7241576af92cf01a2a">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.uwetrottmann.photoview-library-1.2.4_ed842e670b46d3843891f54410f605cc2a5c5359.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.0_9a47ce805ef3364969ebe1c79759e8190a72dd0e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e059fc998492dcfdcb947af08a9f204175b4affd">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\instant-run-bootstrap_b461738895c01d777582eecce48c50dbe2828ced.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.11.0\840897fcd7223a8143f1d9b6f69714e7be34fd50\okio-1.11.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\okio-1.11.0_893d7cba6fd833c845f42c6194f7ff7a73716aa7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\0.11.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-0.11.0_42f63f030bc03fc5f837e9a729e673ed74f82ed4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_c64325f78a24c085b700c554244dc03fa6bc6a89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.11.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-0.11.0_421d70909dbc93b62931c7a90bed463d4cd87c98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.0_b4d010c6c3a5fc5b3ca6bf2d16bca646778c4fdd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\butterknife-7.0.1_fc861cbde294a7e4a9efd57936d766cb077b60e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\studioSDK\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\support-annotations-24.2.0_b964b83fb1afeb9095d64a283c9008fcd880b42d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_4b976bbb8c6f393948ff30182239800a6f7b733a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.koushikdutta.ion\ion\2.1.9\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7e54ea31584406fcc68225a8656f384c333ff2ee">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.koushikdutta.ion-ion-2.1.9_805d5d41727e64d5d4ba98341487386a5fa89077.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.0_1870862e43cbb985b8e54b6ec7973c5b382d7d71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.11.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-0.11.0_dc3fd89fc44d68ec8c4bec5abe9bdf9ea3b4c9ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\test\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e59e8c727d36f71423b1b55a9c3920d17319c3bb">
+        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\instant-run_e02e12f8f7463cc31df0f89d53672e9695c60b83.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_1dd421e2fef3c9d9a637bc17460c68180c13b5b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.0_1d9a518758db93cabf919a704408d55c95fecc94.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_47a44bdc53c852a34018b6319d47158132452b07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.0_343144b880f608279524e0c13ff9b06d6870b908.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.0_8403b92301d2f4b9acddeb2c9f0edce9b3052160.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.0_0729eaa4540a28deef706869ce86be3dd0e574ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\test\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7373bdf485a9409e64110f84454a0391d90a7d81">
+        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\instant-run-bootstrap_7c2f6ec01cd6b5f118be6e5e8fe0c52456eaf941.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_83431820db3d21d2c2f4a1917b67953fe1f9e750.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\studioSDK\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_4fbad4bef9f2d3e930acccf8ecb8a969aa4e0ba5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-24.2.1_e8e59ede961162f05ba4fadf7982a75fba863dc3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="df76acaaa96604570a53df9ef638da9f207f26b5">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\instant-run_b0b9ccad6e8f7f5406dcc2fc7c101e4b49688ae3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.0_964b57cdd0eab175ab044e06bbee81b10569fb6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_e466f99d1e7b806b209acd67b487a16466cdc705.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.0_295e91e7068690c9bcee9201e2d6740a8509cc05.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\libs\xUtils-2.6.14.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\xUtils-2.6.14_2f1e4c4989f86d559d8cb53b4f6451775164944c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_d5e0f49f13b4edb63dce9c9e6ba8c191ce6c1490.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.github.openfeign\feign-gson\9.4.0\37c076e1e43660c135350117e352f930d3aad95b\feign-gson-9.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="37c076e1e43660c135350117e352f930d3aad95b">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\feign-gson-9.4.0_3c759e84c2e693e09173263b76d3ffbbdb356203.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_0664abe1197e0c1b1a85769446b321d07cba859c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.5.0\4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83\okhttp-3.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\okhttp-3.5.0_c593a7d2ef038914527204d71747c765ea8d1e88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.koushikdutta.async\androidasync\2.1.9\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="60d0e28fe7ab6da6c03b54cd8ede502284d51a81">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.koushikdutta.async-androidasync-2.1.9_ac43bf46405b8207db9253a02e55bcb5a88e9b25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_da09d1d7a16bb36577c53b6aeed83211700dce40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.0_a663728e2310b5439cee11ab456df0fa50fde60d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_dc93dbdfacb940d1f50316ac5862858707f6e7e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\design\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.0_9625efa7e3227bd292f587e31a8e2a8ba735c45d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.11.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-0.11.0_db11559a61784589bfe4d2f4c7d9a57169253759.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.0_299f8488214d0a40e415c14b0b213149c96add68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.0_a467c8497b41efd7cfc44fbd50a1434af57f7fd3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\library-2.4.0_dd460f45d27a359687729c3c169358b1eda3100b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.5\686c608d1805b6d4d425ec4459e88164ffc85870\gson-2.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="686c608d1805b6d4d425ec4459e88164ffc85870">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\gson-2.5_d1775ad48bbb63d88951f4da76a944051360b30e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.0_1ca6d6b6fe6bb7e17e98fe7426aaf1360ef2d664.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.0_e9e06f04de42d72fcc1182a8468564ceffbd7113.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.github.openfeign\feign-core\9.4.0\6d7727ae005e6c56facc5f425d377732a9ba7b16\feign-core-9.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6d7727ae005e6c56facc5f425d377732a9ba7b16">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\feign-core-9.4.0_16617990490c7c3f36cfb7f7b7d7a8e7679d57c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.0_f202c86c79286b942aa7963f91c48d76eddec692.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.0_8394d05f7012a7528f427fed5a8cefdcfb1ec596.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.jvnet\animal-sniffer-annotation\1.0\67da8e0d8a8ef79c461a489f9f7bb3e86e23ccae\animal-sniffer-annotation-1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="67da8e0d8a8ef79c461a489f9f7bb3e86e23ccae">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\animal-sniffer-annotation-1.0_95e1e22e87433e2360718b1fb4ac050a019c4fe5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.11.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-0.11.0_f65fc9421c9e1245e33c65a5dbb3d636e00de0c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.0_7f7ec539c0397073c04ffdf49d2834039b61aa0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_8c52ed2f31bf07c888c80298982be12b88403022.jar" />
+    </item>
+
+</items>

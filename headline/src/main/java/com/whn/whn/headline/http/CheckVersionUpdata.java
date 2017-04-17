@@ -43,7 +43,7 @@ public class CheckVersionUpdata  implements HttpInterface{
     /**
      * 联网检查版本
      */
-    private void checkVersion() {
+    public void checkVersion() {
         HttpHelper httpHelper = new HttpHelper();
         httpHelper.execGet(url, new HttpHelper.HttpCallback() {
             @Override
@@ -56,8 +56,9 @@ public class CheckVersionUpdata  implements HttpInterface{
                     downloadurl = jsonObject.getString("downloadurl");// 下载地址
                     if (code < versionCode) {// 需要更新,弹出一个对话框
                         showAlertDialog();
-                    } else {// 不需要更新,进入主界面
-                        enterHome();
+                    } else {// 不需要更新,弹出对话框
+//                        enterHome();
+                        Toast.makeText(activity, "当前已经是最新版本", Toast.LENGTH_SHORT).show();
                     }
                 } catch (JSONException e) {
                     e.printStackTrace();
@@ -66,8 +67,9 @@ public class CheckVersionUpdata  implements HttpInterface{
 
             @Override
             public void onFail(Exception e) {
-                enterMainActivity();
-                activity.finish();
+//                enterMainActivity();
+                Toast.makeText(activity, "当前已经是最新版本", Toast.LENGTH_SHORT).show();
+//                activity.finish();
             }
         });
     }
@@ -120,14 +122,14 @@ public class CheckVersionUpdata  implements HttpInterface{
 
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                enterHome();
+//                enterHome();
             }
         });
         builder.show();
         builder.setOnCancelListener(new DialogInterface.OnCancelListener() {
             @Override
             public void onCancel(DialogInterface dialog) {
-                enterHome();
+//                enterHome();
             }
         });
     }
@@ -139,7 +141,7 @@ public class CheckVersionUpdata  implements HttpInterface{
         // 先判断sd卡状态是否正常
         if (!Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)) {
 
-            enterHome();
+//            enterHome();
             Toast.makeText(activity, "sd卡异常", Toast.LENGTH_SHORT).show();
             return;
         }
@@ -174,7 +176,7 @@ public class CheckVersionUpdata  implements HttpInterface{
             @Override
             public void onFailure(HttpException arg0, String arg1) {
                 Toast.makeText(activity, "下载失败", Toast.LENGTH_SHORT).show();
-                enterHome();
+//                enterHome();
                 dialog.dismiss();
             }
         });
@@ -195,17 +197,17 @@ public class CheckVersionUpdata  implements HttpInterface{
     /**
      * 进入主页面
      */
-    protected void enterHome() {
-        activity.startActivity(new Intent(activity, MainActivity.class));
-        activity.finish();
-    }
+//    protected void enterHome() {
+//        activity.startActivity(new Intent(activity, MainActivity.class));
+//        activity.finish();
+//    }
 
-    public void enterMainActivity(){
-        if(KEY_ENTER){
-            enterHome();
-            KEY_ENTER = false;
-        }
-        activity.finish();
-    }
+//    public void enterMainActivity(){
+//        if(KEY_ENTER){
+//            enterHome();
+//            KEY_ENTER = false;
+//        }
+//        activity.finish();
+//    }
 
 }

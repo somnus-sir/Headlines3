@@ -150,7 +150,7 @@ public class SplashActivity extends AppCompatActivity implements HttpInterface{
      * 显示对话框
      */
     protected void showAlertDialog() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        AlertDialog.Builder builder = new AlertDialog.Builder(this).setCancelable(false);
         builder.setTitle("版本更新提醒");
         builder.setMessage(desc);
         builder.setPositiveButton("立即更新", new DialogInterface.OnClickListener() {

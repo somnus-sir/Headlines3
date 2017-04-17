@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\whn\\headline3\\Headlines3\\pullToRefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\default_ptr_flip.png",
+        "source": "D:\\whn\\headline3\\Headlines3\\pullToRefresh\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\default_ptr_flip.png"
+    },
+    {
         "merged": "D:\\whn\\headline\\Headlines-master\\pullToRefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\default_ptr_flip.png",
         "source": "D:\\whn\\headline\\Headlines-master\\pullToRefresh\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\default_ptr_flip.png"
     },
@@ -20,6 +24,10 @@
         "source": "D:\\AndroidStudio\\workspce\\Headlines\\pullToRefresh\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\default_ptr_rotate.png"
     },
     {
+        "merged": "D:\\whn\\headline3\\Headlines3\\pullToRefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\indicator_arrow.png",
+        "source": "D:\\whn\\headline3\\Headlines3\\pullToRefresh\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\indicator_arrow.png"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\Headlines-master\\pullToRefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\indicator_arrow.png",
         "source": "C:\\Users\\Administrator\\Desktop\\Headlines-master\\pullToRefresh\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\indicator_arrow.png"
     },
@@ -34,6 +42,10 @@
     {
         "merged": "D:\\whn\\headline\\Headlines-master\\pullToRefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\indicator_arrow.png",
         "source": "D:\\whn\\headline\\Headlines-master\\pullToRefresh\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "D:\\whn\\headline3\\Headlines3\\pullToRefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\default_ptr_rotate.png",
+        "source": "D:\\whn\\headline3\\Headlines3\\pullToRefresh\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\default_ptr_rotate.png"
     },
     {
         "merged": "D:\\whn\\Headlines-master\\pullToRefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\default_ptr_flip.png",
