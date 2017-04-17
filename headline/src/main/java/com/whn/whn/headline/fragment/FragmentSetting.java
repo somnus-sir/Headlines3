@@ -1,7 +1,10 @@
 package com.whn.whn.headline.fragment;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.Dialog;
 import android.app.Fragment;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -12,6 +15,7 @@ import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -31,11 +35,12 @@ import java.util.Random;
 
 
 public class FragmentSetting extends Fragment {
-    public String[] arr = new String[]{"字体大小", "清理缓存", "加载图片", "检查新版本", "使用帮助", "意见反馈"};
+    public String[] arr = new String[]{"字体大小", "清理缓存", "加载图片", "检查新版本", "使用帮助", "评价反馈"};
     public Activity activity;
     private boolean FLAG_TEXTSIZE = true;
     private boolean FLAG_IMAGELOAD = false;
     public static boolean FLAG_CACHECLEAN = true;
+    private String[] sexArry = new String[]{"很好用，我给五星好评","一般般，还可以","很糟糕，我很不满意"};
 
 
     @Nullable
@@ -87,7 +92,7 @@ public class FragmentSetting extends Fragment {
             case 0://字体大小,主界面的字体大小更改
                 if (FLAG_TEXTSIZE) {
                     FragmentFactory.setTextSize(20, 14);
-                    Toast.makeText(activity, "超大字体", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(activity, "大号字体", Toast.LENGTH_SHORT).show();
                     FLAG_TEXTSIZE = false;
                 } else {
                     FragmentFactory.setTextSize(16, 12);
@@ -95,6 +100,7 @@ public class FragmentSetting extends Fragment {
                     FLAG_TEXTSIZE = true;
                 }
                 break;
+
             case 1://清理缓存，随机设置
                 Random random = new Random();
                 double v = random.nextDouble() * 3;
@@ -109,6 +115,7 @@ public class FragmentSetting extends Fragment {
                     //关闭侧拉以后才有缓存
                 }
                 break;
+
             case 2://加载图片，控制图片加载,第一次传入false不加载
                 if (FLAG_IMAGELOAD) {
                     FragmentFactory.controlImageVisible(FLAG_IMAGELOAD);
@@ -121,21 +128,31 @@ public class FragmentSetting extends Fragment {
                     DetailActivity.setImageLoad(FLAG_IMAGELOAD);
                     FLAG_IMAGELOAD = true;
                 }
-
                 break;
+
             case 3://检查新版本，没有新版本,请求tomcat服务器
                 CheckVersionUpdata checkVersionUpdata = new CheckVersionUpdata(activity);
                 checkVersionUpdata.checkVersion();
-
                 break;
+
             case 4://使用帮助，提示，跳转一个页面，显示详细信息
                 startActivity(new Intent(activity, HelpActivity.class));
-
                 break;
-            case 5://意见反馈，反馈
 
+            case 5://意见反馈
+                AlertDialog.Builder builder = new AlertDialog.Builder(activity);// 自定义对话框
+                builder.setSingleChoiceItems(sexArry, 0, new DialogInterface.OnClickListener() {// 2默认的选中
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {// which是被选中的位置
+                        Toast.makeText(activity, "感谢您的评价", Toast.LENGTH_SHORT).show();
+                        dialog.dismiss();//随便点击一个item消失对话框，不用点击确认取消
+                    }
+                });
+                builder.show();// 让弹出框显示
                 break;
         }
+
+
     }
 
     class lvAdapter extends BaseAdapter {

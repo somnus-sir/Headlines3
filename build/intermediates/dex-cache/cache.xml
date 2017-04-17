@@ -3,12 +3,30 @@
 
     <item
         is-multidex="false"
-        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jar="D:\studioSDK\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
-        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.0_1b0f692b7c03ca21c8d60f911df30ea14fe9be8e.jar" />
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_4fbad4bef9f2d3e930acccf8ecb8a969aa4e0ba5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-24.2.1_e8e59ede961162f05ba4fadf7982a75fba863dc3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="76aad568d80c38594d7447668ef29a74201ce0e8">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\instant-run_b0b9ccad6e8f7f5406dcc2fc7c101e4b49688ae3.jar" />
     </item>
     <item
         is-multidex="false"
@@ -39,11 +57,20 @@
     </item>
     <item
         is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.0_964b57cdd0eab175ab044e06bbee81b10569fb6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="D:\whn\headline3\Headlines3\headline\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="e059fc998492dcfdcb947af08a9f204175b4affd">
+        sha1="ee96fe07e663d7c3dac302b0b7613eb42b46ef12">
         <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\instant-run-bootstrap_b461738895c01d777582eecce48c50dbe2828ced.jar" />
     </item>
     <item
@@ -84,186 +111,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
-        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.0_b4d010c6c3a5fc5b3ca6bf2d16bca646778c4fdd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
-        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\butterknife-7.0.1_fc861cbde294a7e4a9efd57936d766cb077b60e2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\studioSDK\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
-        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\support-annotations-24.2.0_b964b83fb1afeb9095d64a283c9008fcd880b42d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
-        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_4b976bbb8c6f393948ff30182239800a6f7b733a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.koushikdutta.ion\ion\2.1.9\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="7e54ea31584406fcc68225a8656f384c333ff2ee">
-        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.koushikdutta.ion-ion-2.1.9_805d5d41727e64d5d4ba98341487386a5fa89077.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
-        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.0_1870862e43cbb985b8e54b6ec7973c5b382d7d71.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.11.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
-        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-0.11.0_dc3fd89fc44d68ec8c4bec5abe9bdf9ea3b4c9ec.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\whn\headline3\Headlines3\test\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="e59e8c727d36f71423b1b55a9c3920d17319c3bb">
-        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\instant-run_e02e12f8f7463cc31df0f89d53672e9695c60b83.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
-        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_1dd421e2fef3c9d9a637bc17460c68180c13b5b7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
-        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.0_1d9a518758db93cabf919a704408d55c95fecc94.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
-        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_47a44bdc53c852a34018b6319d47158132452b07.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
-        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.0_343144b880f608279524e0c13ff9b06d6870b908.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
-        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.0_8403b92301d2f4b9acddeb2c9f0edce9b3052160.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
-        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.0_0729eaa4540a28deef706869ce86be3dd0e574ce.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\whn\headline3\Headlines3\test\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="7373bdf485a9409e64110f84454a0391d90a7d81">
-        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\instant-run-bootstrap_7c2f6ec01cd6b5f118be6e5e8fe0c52456eaf941.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
-        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_83431820db3d21d2c2f4a1917b67953fe1f9e750.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\studioSDK\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_4fbad4bef9f2d3e930acccf8ecb8a969aa4e0ba5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
-        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-24.2.1_e8e59ede961162f05ba4fadf7982a75fba863dc3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="df76acaaa96604570a53df9ef638da9f207f26b5">
-        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\instant-run_b0b9ccad6e8f7f5406dcc2fc7c101e4b49688ae3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
-        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.0_964b57cdd0eab175ab044e06bbee81b10569fb6a.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="true"
         optimize="true"
@@ -273,12 +120,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
-        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.0_295e91e7068690c9bcee9201e2d6740a8509cc05.jar" />
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\butterknife-7.0.1_fc861cbde294a7e4a9efd57936d766cb077b60e2.jar" />
     </item>
     <item
         is-multidex="false"
@@ -309,21 +156,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
-        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_0664abe1197e0c1b1a85769446b321d07cba859c.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.5.0\4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83\okhttp-3.5.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83">
         <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\okhttp-3.5.0_c593a7d2ef038914527204d71747c765ea8d1e88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_4b976bbb8c6f393948ff30182239800a6f7b733a.jar" />
     </item>
     <item
         is-multidex="false"
@@ -336,21 +183,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.koushikdutta.ion\ion\2.1.9\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
-        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_da09d1d7a16bb36577c53b6aeed83211700dce40.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
-        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.0_a663728e2310b5439cee11ab456df0fa50fde60d.jar" />
+        sha1="7e54ea31584406fcc68225a8656f384c333ff2ee">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.koushikdutta.ion-ion-2.1.9_805d5d41727e64d5d4ba98341487386a5fa89077.jar" />
     </item>
     <item
         is-multidex="false"
@@ -381,21 +219,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
-        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.0_299f8488214d0a40e415c14b0b213149c96add68.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
-        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.0_a467c8497b41efd7cfc44fbd50a1434af57f7fd3.jar" />
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.0_1870862e43cbb985b8e54b6ec7973c5b382d7d71.jar" />
     </item>
     <item
         is-multidex="false"
@@ -408,6 +237,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.11.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-0.11.0_dc3fd89fc44d68ec8c4bec5abe9bdf9ea3b4c9ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.5\686c608d1805b6d4d425ec4459e88164ffc85870\gson-2.5.jar"
         jumboMode="true"
         optimize="true"
@@ -417,30 +255,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
-        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.0_1ca6d6b6fe6bb7e17e98fe7426aaf1360ef2d664.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
-        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.0_e9e06f04de42d72fcc1182a8468564ceffbd7113.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.github.openfeign\feign-core\9.4.0\6d7727ae005e6c56facc5f425d377732a9ba7b16\feign-core-9.4.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="6d7727ae005e6c56facc5f425d377732a9ba7b16">
         <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\feign-core-9.4.0_16617990490c7c3f36cfb7f7b7d7a8e7679d57c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.0_1d9a518758db93cabf919a704408d55c95fecc94.jar" />
     </item>
     <item
         is-multidex="false"
@@ -462,6 +291,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.0_343144b880f608279524e0c13ff9b06d6870b908.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.jvnet\animal-sniffer-annotation\1.0\67da8e0d8a8ef79c461a489f9f7bb3e86e23ccae\animal-sniffer-annotation-1.0.jar"
         jumboMode="true"
         optimize="true"
@@ -480,6 +318,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.0_0729eaa4540a28deef706869ce86be3dd0e574ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -489,12 +336,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\whn\headline3\Headlines3\test\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jar="D:\whn\headline3\Headlines3\headline\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
-        <dex dex="D:\whn\headline3\Headlines3\test\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_8c52ed2f31bf07c888c80298982be12b88403022.jar" />
+        <dex dex="D:\whn\headline3\Headlines3\headline\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_83431820db3d21d2c2f4a1917b67953fe1f9e750.jar" />
     </item>
 
 </items>
